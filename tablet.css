@@ -1,0 +1,39 @@
+@media only screen and (max-width: 768px){
+    .food-items section {
+            overflow: hidden;
+            display: inline-block;
+            width: 100%;
+            margin: 1rem;
+            height: 60vh;
+        }
+        .customers{
+            /* margin-top: -50px; */
+            display: block;
+        }
+           .testimonials {
+            width: 100%;
+            margin-top: 0;
+            margin-right: 2rem;
+            margin-left: 0rem;
+            height: 50%;
+            /* height: 90%; */
+        }
+
+        .rev-text {
+            margin-top: 10px !important;
+            width: 80%;
+            /* height: 100%; */
+                   background-color: lightgray;
+            margin: 1rem;
+            padding: 1rem;
+        }
+ .small-img {
+            display: none;
+
+        }
+        .h1{
+            margin-top: 1rem !important;
+        }
+       
+        
+}
