@@ -3,6 +3,13 @@
             margin: 0;
             padding: 0
         }
+        #body{
+            display: none;
+        }
+        #gif{
+            margin-left:45% ;
+            margin-top: 20%;
+        }
 
         .row {
 
