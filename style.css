@@ -6,16 +6,68 @@
         #body{
             display: none;
         }
-        #gif{
-            margin-left:45% ;
-            margin-top: 20%;
-        }
+        
 
         .row {
 
             margin-right: 0px !important;
         }
+        .green{
+            padding: 1rem;
+            background-color: 	pink;
+            color: white;
+        }
+        .lp-title{
+            color: gray;
+            font-size: 1.5rem;
+        }
+        .lp-container{
+            position: relative;
+        }
+        .bottom-left{
+            position: absolute;
+            bottom: 20px;
+            left: 10px;
+            border-radius: 30px;
+            border-style: solid;
+            border-width: 2px;
+            padding: 1rem;
+            font-size: 2rem;
+            color: white
+        }
+        .top-right{
+            position: absolute;
+            top: 20px;
+            right: 10px;
+           font-size: 2rem;
+            color: white
+        }
+      
+        .lp-value{
 
+            font-size: 1.8rem;
+        }
+        .lp .img{
+            height: 65vh;
+        }
+        .lp img{
+            height: 60vh;
+        }
+        .lp-h1{
+            font-size: 2.5rem !important;
+        }
+        .f-email{
+font-size: 1.5rem;
+opacity: 0;
+        }
+        .f-phone{
+font-size: 1.5rem;
+opacity: 0;
+        }
+        a:hover{
+            text-decoration: none !important;
+            color: black !important;
+        }
         .foods:hover {
             background-color:rgb(255,192,203, 0.8)
         }
