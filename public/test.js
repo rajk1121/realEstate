@@ -10,29 +10,29 @@ var $window = $(window);
 //     }
 
 // })
-// $(document).ready(function () {
-//     $(window).on('load', function () {
+$(document).ready(function () {
+    $(window).on('load', function () {
 
-//         setTimeout(function () {
-//             document.getElementById('gif').style.display = 'none';
-//             document.getElementById('body').style.display = 'block';
-//         }, 2000);
-//     });
-// });
+        setTimeout(function () {
+            document.getElementById('gif').style.display = 'none';
+            document.getElementById('body').style.display = 'block';
+        }, 2000);
+    });
+});
 
-$(document).on('scroll', function () {
-    console.log('hello');
-    function isScrolledIntoView(elem, $window) {
-        var docViewTop = $window.scrollTop();
-        // console.log(docViewTop);
-        var docViewBottom = docViewTop + $window.height();
+// $(document).on('scroll', function () {
+//     console.log('hello');
+//     function isScrolledIntoView(elem, $window) {
+//         var docViewTop = $window.scrollTop();
+//         // console.log(docViewTop);
+//         var docViewBottom = docViewTop + $window.height();
 
-        var elemTop = elem.offset().top;
-        var elemBottom = elemTop + elem.height();
+//         var elemTop = elem.offset().top;
+//         var elemBottom = elemTop + elem.height();
 
-        return ((elemTop >= docViewTop) && (elemBottom <= docViewBottom));
-    }
-    if (isScrolledIntoView(row, $window)) {
-        row.addClass('animated fadeIn')
-    }
-})
+//         return ((elemTop >= docViewTop) && (elemBottom <= docViewBottom));
+//     }
+//     if (isScrolledIntoView(row, $window)) {
+//         row.addClass('animated fadeIn')
+//     }
+// })
