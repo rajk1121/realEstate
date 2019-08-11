@@ -11,13 +11,10 @@ var $window = $(window);
 
 // })
 $(document).ready(function () {
-    $(window).on('load', function () {
-
-        setTimeout(function () {
-            document.getElementById('gif').style.display = 'none';
-            document.getElementById('body').style.display = 'block';
-        }, 2000);
-    });
+    setTimeout(function () {
+        document.getElementById('gif').style.display = 'none';
+        document.getElementById('body').style.display = 'block';
+    }, 2000);
 });
 
 // $(document).on('scroll', function () {
