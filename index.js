@@ -13,7 +13,7 @@ mongoose.connect(DB, {
 });
 app.use(express.static('public'));
 app.use(express.json())
-app.get('/home', (req, res) => {
+app.get(['/home', '/'], (req, res) => {
     res.send(str);
 })
 app.use('/property-grid', propRouter);
