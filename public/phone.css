@@ -1,5 +1,18 @@
+@media only screen and(max-width : 500px){
+     .top-img {
+            background-position: center center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            width: 100vw;
+            height:60vh !important;
+            background-size: cover;
+        }
 
-       
+        .top-item {
+            height: 60vh !important;
+            width: 100vw;
+        }
+        
        * {
             margin: 0;
             padding: 0
@@ -204,19 +217,7 @@ h1{
     opacity:0;
 }
 
-        .top-img {
-            background-position: center center;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            width: 100vw;
-            height: 100vh !important;
-            background-size: cover;
-        }
-
-        .top-item {
-            height: 100vh;
-            width: 100vw;
-        }
+       
 
         .testimonials {
             width: 40%;
@@ -253,4 +254,5 @@ h1{
         #slider4 {
             background-color: white;
         }
-   
+
+}
