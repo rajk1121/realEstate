@@ -69,8 +69,15 @@ font-size: 1.5rem;
 opacity: 0;
         }
         .f-phone{
-font-size: 1.5rem;
-opacity: 0;
+    font-size: 1.5rem;
+    opacity: 0;
+        }
+        .ca-a{
+            color: black !important;
+        }
+        a {
+            color: #2eca6a !important;
+            text-decoration: none !important;
         }
         a:hover{
             text-decoration: none !important;
