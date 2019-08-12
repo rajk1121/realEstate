@@ -10,9 +10,17 @@ var $window = $(window);
 //     }
 
 // })
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
 $(document).ready(function () {
     setTimeout(function () {
         document.getElementById('gif').style.display = 'none';
+        document.getElementById('mynav').style.display = "block"
         document.getElementById('body').style.display = 'block';
     }, 2000);
 });
