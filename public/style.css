@@ -1,6 +1,4 @@
-
-       
-       * {
+ * {
             margin: 0;
             padding: 0
         }
@@ -16,8 +14,9 @@
         #green{
             padding: 0.5rem;
             padding-left: 4rem;
-            background-color: 	pink;
+            background-color: 	#2eca6a;
             color: white;
+            border-radius: 10px;
             /* display: none */
         }
         .lp-title{
@@ -29,13 +28,15 @@
         }
         .bottom-left{
             position: absolute;
-            bottom: 80px;
+            bottom: 40px;
             left: 10px;
+            border-radius: 15px;
+            border-color: #2eca6a;
             border-radius: 30px;
             border-style: solid;
             border-width: 2px;
             padding: 1rem;
-            font-size: 2rem;
+            font-size: 1.5rem;
             color: white
         }
         .top-right{
@@ -55,13 +56,16 @@
             font-size: 2rem !important;
         }
         .lp #img{
-            height: 65vh;
+            border-radius: 10px;
+            height: 50vh;
         }
         .lp img{
-            height: 65vh;
+            border-radius: 10px;
+            height: 50vh;
         }
+        
         .heading{
-            font-size: 4rem !important;
+            font-size: 4.5rem !important;
         }
         h1{
             font-weight: bold !important;
@@ -179,7 +183,7 @@ opacity: 0;
     
         #vertical{
             width: 5px;
-            background-color: green;
+            background-color: rgb(116, 121, 116);
             margin-right: 5rem;
         }
         .right{

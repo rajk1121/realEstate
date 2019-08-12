@@ -14,6 +14,7 @@ const getProp = async (req, res) => {
     var str5 = str;
     // console.log(data.title)
     str5 = str5.replace(/{%TITLE%}/g, data["title"]);
+    str6 = str6.replace(/{%TITLE%}/g, data["title"]);
     str5 = str5.replace(/{%LOCATION%}/g, data["location"]);
     str5 = str5.replace(/{%LINK1%}/g, data["link1"]);
     str5 = str5.replace(/{%LINK2%}/g, data["link2"]);

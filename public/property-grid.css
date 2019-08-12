@@ -1,6 +1,6 @@
 
         .lp-title {
-            color: gray;
+            color: #FFDC00;
             font-size: 1.5rem;
         }
 
@@ -11,7 +11,7 @@
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
-            height: 65vh;
+            height: 60vh;
         }
 
         .bc {
@@ -30,6 +30,7 @@
 
         #green {
             padding: 0.5rem;
+            border-radius: 10px;
             padding-left: 4rem;
             background-color: #2eca6a;
             color: white;
@@ -52,7 +53,7 @@
             border-color: #2eca6a;
             border-width: 2px;
             padding: 1rem;
-            font-size: 2rem;
+            font-size: 1.5rem;
             color: white;
 
             opacity: 0;
@@ -63,7 +64,6 @@
             top: 20px;
             right: 10px;
             font-size: 2rem;
-            color: white;
 
             opacity: 0;
         }
@@ -74,14 +74,17 @@
         }
 
         a {
-            color: white !important;
+            color: black !important;
             text-decoration: none !important;
+        }
+        a:hover{
+            color: #2eca6a
         }
 #body{
     display: none;
 }
-        .lp #img {
-            height: 65vh;
+        .lp .img {
+            height: 50vh;
         }
 
         #vertical {
@@ -98,6 +101,4 @@
             margin: 5rem 0;
         }
 
-        .lp img {
-            z-index: -100000
-        }
+      
