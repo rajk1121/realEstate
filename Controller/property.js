@@ -87,18 +87,19 @@ const delProp = async (req, res) => {
 const getPropGrid = async (req, res) => {
     var json = await propGridModel.find({});
     var length = json.length;
-    console.log(length);
+    // console.log(length);
+    var str7 = str3;
     var ans = "";
-    console.log(propGridModel)
-    console.log(json)
+    // console.log(propGridModel)
+    // console.log(json)
     var str4 = "";
     for (var i = 0; i < length; i++) {
 
-        console.log('**********************')
+        // console.log('**********************')
         str4 = str2;
         var id = i + 1;
         var adat = await propGridModel.findOne({ "id": id });
-        console.log(adat);
+        // console.log(adat);
         str4 = str4.replace(/{%RENT%}/, adat.rent);
 
         str4 = str4.replace(/{%AREA%}/, adat.area);
@@ -111,12 +112,12 @@ const getPropGrid = async (req, res) => {
         str4 = str4.replace(/{%LINK%}/, adat.links);
 
         ans = ans + str4;
-        console.log(ans);
+        // console.log(ans);
 
     }
-    str3 = str3.replace(/{%WORK%}/, ans);
-    console.log(str3);
-    res.send(str3);
+    str7 = str7.replace(/{%WORK%}/, ans);
+    // console.log(str7);
+    res.send(str7);
     res.end();
 
 }
