@@ -93,9 +93,12 @@ const getPropGrid = async (req, res) => {
     console.log(json)
     var str4 = "";
     for (var i = 0; i < length; i++) {
+
+        console.log('**********************')
         str4 = str2;
         var id = i + 1;
         var adat = await propGridModel.findOne({ "id": id });
+        console.log(adat);
         str4 = str4.replace(/{%RENT%}/, adat.rent);
 
         str4 = str4.replace(/{%AREA%}/, adat.area);
