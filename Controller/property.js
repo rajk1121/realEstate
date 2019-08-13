@@ -111,9 +111,11 @@ const getPropGrid = async (req, res) => {
         str4 = str4.replace(/{%LINK%}/, adat.links);
 
         ans = ans + str4;
+        console.log(ans);
 
     }
     str3 = str3.replace(/{%WORK%}/, ans);
+    console.log(str3);
     res.send(str3);
     res.end();
 
